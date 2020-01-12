@@ -1,5 +1,3 @@
-<p style="text-algin:center;>![Swift Algorithm Club](Images/SwiftAlgorithm-410-transp.png)</p>
-
 # 스위프트 알고리즘 클럽에 오신 것을 환영합니다!
 
 이 저장소에서 당신은 알고리즘과 자료구조를 스위프트로 구현한 코드를 찾을 수 있습니다. 또한 어떻게 알고리즘과 자료구조가 동작하는지에 대한 자세한 설명을 볼 수 있습니다.
@@ -10,7 +8,6 @@
 
 이 프로젝트의 코드는 **Xcode 10**과 **Swift 4.2**에 맞추어 작성되었습니다. 우리들은 스위프트의 최신버전의 업데이트에 맞추어 코드를 갱신할 것입니다. 깃헙 페이지에 관심이 있다면 여기를 참고하세요. [클릭](https://aquarchitect.github.io/swift-algorithm-club/).
 
-:heart_eyes: **제안과 코드 기여를 해주세요.** :heart_eyes:
 
 ## 중요 링크
 
