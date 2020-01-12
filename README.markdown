@@ -1,43 +1,43 @@
-<p style="text-align:center">![Swift Algorithm Club](Images/SwiftAlgorithm-410-transp.png)</p>
+<p style="text-algin:center;>![Swift Algorithm Club](Images/SwiftAlgorithm-410-transp.png)</p>
 
-# Welcome to the Swift Algorithm Club!
+# 스위프트 알고리즘 클럽에 오신 것을 환영합니다!
 
-Here you'll find implementations of popular algorithms and data structures in everyone's favorite new language Swift, with detailed explanations of how they work.
+이 저장소에서 당신은 알고리즘과 자료구조를 스위프트로 구현한 코드를 찾을 수 있습니다. 또한 어떻게 알고리즘과 자료구조가 동작하는지에 대한 자세한 설명을 볼 수 있습니다.
 
-If you're a computer science student who needs to learn this stuff for exams -- or if you're a self-taught programmer who wants to brush up on the theory behind your craft -- you've come to the right place!
+만약 당신이 컴퓨터 과학을 공부하는 학생이고 시험에 이러한 코드들이 필요하다면 (또는 당신이 이론을 공부하고 싶은 독학 프로그래머라면) 여기가 최적의 장소입니다!
 
-The goal of this project is to **explain how algorithms work**. The focus is on clarity and readability of the code, not on making a reusable library that you can drop into your own projects. That said, most of the code should be ready for production use but you may need to tweak it to fit into your own codebase.
+이 프로젝트의 목표는 **알고리즘이 어떻게 동작하는지**에 대해 설명하는 것입니다. 또한, 이 프로젝트는 명확하고 가독성있는 코드에 집중하며 당신의 프로젝트에 곧바로 옮길 수 있는 재사용가능한 라이브러리를 만드는 것이 목적이 아닙니다. 즉, 대부분의 코드가 당신의 프로젝트에 사용될 수 있지만 그 프로젝트에 맞게 수정이 필요하다는 것입니다.
 
-Code is compatible with **Xcode 10** and **Swift 4.2**. We'll keep this updated with the latest version of Swift. If you're interested in a GitHub pages version of the repo, check out [this](https://aquarchitect.github.io/swift-algorithm-club/).
+이 프로젝트의 코드는 **Xcode 10**과 **Swift 4.2**에 맞추어 작성되었습니다. 우리들은 스위프트의 최신버전의 업데이트에 맞추어 코드를 갱신할 것입니다. 깃헙 페이지에 관심이 있다면 여기를 참고하세요. [클릭](https://aquarchitect.github.io/swift-algorithm-club/).
 
-:heart_eyes: **Suggestions and contributions are welcome!** :heart_eyes:
+:heart_eyes: **제안과 코드 기여를 해주세요.** :heart_eyes:
 
-## Important links
+## 중요 링크
 
-[What are algorithms and data structures?](What%20are%20Algorithms.markdown) Pancakes!
+[알고리즘과 자료구조란?](What%20are%20Algorithms.markdown) 팬케이크!
 
-[Why learn algorithms?](Why%20Algorithms.markdown) Worried this isn't your cup of tea? Then read this.
+[왜 알고리즘을 배워야하나요?](Why%20Algorithms.markdown) 알고리즘이 당신의 흥미에 맞지 않아 걱정되신다면 그럼 이것을 읽어보세요.
 
-[Big-O notation](Big-O%20Notation.markdown). We often say things like, "This algorithm is **O(n)**." If you don't know what that means, read this first.
+[빅오 표기법, Big-O notation](Big-O%20Notation.markdown). 우리는 종종 이것을 "알고리즘은 **O(n)**.이다"라고 말합니다. 이해가 되지 않는다면 읽어보세요.
 
-[Algorithm design techniques](Algorithm%20Design.markdown). How do you create your own algorithms?
+[알고리즘 디자인 기법](Algorithm%20Design.markdown). 어떻게 알고리즘을 만들까?
 
-[How to contribute](https://github.com/raywenderlich/swift-algorithm-club/blob/master/.github/CONTRIBUTING.md). Report an issue to leave feedback, or submit a pull request.
+[이 프로젝트에 기여하는 법](https://github.com/raywenderlich/swift-algorithm-club/blob/master/.github/CONTRIBUTING.md). 피드백을 받기 위해서 이슈 리포트를 하시거나 풀 리퀘스트를 요청하세요.
 
-## Where to start?
+## 어디서부터 시작할까요?
 
-If you're new to algorithms and data structures, here are a few good ones to start out with:
+만약 당신이 알고리즘과 자료구조를 처음 접한다면 다음의 것들을 먼저 익혀보세요.
 
-- [Stack](Stack/)
-- [Queue](Queue/)
-- [Insertion Sort](Insertion%20Sort/)
-- [Binary Search](Binary%20Search/) and [Binary Search Tree](Binary%20Search%20Tree/)
-- [Merge Sort](Merge%20Sort/)
-- [Boyer-Moore string search](Boyer-Moore-Horspool/)
+- [Stack, 스택](Stack/)
+- [Queue, 큐](Queue/)
+- [Insertion Sort, 삽입 정렬](Insertion%20Sort/)
+- [Binary Search, 이진 탐색](Binary%20Search/) and [Binary Search Tree, 이진 탐색 트리](Binary%20Search%20Tree/)
+- [Merge Sort, 합병 정렬](Merge%20Sort/)
+- [Boyer-Moore string search, 보이어-무어 문자열 검색](Boyer-Moore-Horspool/)
 
-## The algorithms
+## 알고리즘
 
-### Searching
+### 검색
 
 - [Linear Search](Linear%20Search/). Find an element in an array.
 - [Binary Search](Binary%20Search/). Quickly find elements in a sorted array.
@@ -48,7 +48,7 @@ If you're new to algorithms and data structures, here are a few good ones to sta
 - [Union-Find](Union-Find/). Keeps track of disjoint sets and lets you quickly merge them.
 
 
-### String Search
+### 문자열 검색
 
 - [Brute-Force String Search](Brute-Force%20String%20Search/). A naive method.
 - [Boyer-Moore](Boyer-Moore-Horspool/). A fast method to search for substrings. It skips ahead based on a look-up table, to avoid looking at every character in the text.
@@ -57,7 +57,7 @@ If you're new to algorithms and data structures, here are a few good ones to sta
 - [Longest Common Subsequence](Longest%20Common%20Subsequence/). Find the longest sequence of characters that appear in the same order in both strings.
 - [Z-Algorithm](Z-Algorithm/). Finds all instances of a pattern in a String, and returns the indexes of where the pattern starts within the String.
 
-### Sorting
+### 정렬
 
 It's fun to see how sorting algorithms work, but in practice you'll almost never have to provide your own sorting routines. Swift's own `sort()` is more than up to the job. But if you're curious, read on...
 
@@ -88,12 +88,12 @@ Bad sorting algorithms (don't use these!):
 - [Bubble Sort](Bubble%20Sort/)
 - [Slow Sort](Slow%20Sort/)
 
-### Compression
+### 압축
 
 - [Run-Length Encoding (RLE)](Run-Length%20Encoding/). Store repeated values as a single byte and a count.
 - [Huffman Coding](Huffman%20Coding/). Store more common elements using a smaller number of bits.
 
-### Miscellaneous
+### 기타
 
 - [Shuffle](Shuffle/). Randomly rearranges the contents of an array.
 - [Comb Sort](Comb%20Sort/). An improve upon the Bubble Sort algorithm.
@@ -102,7 +102,8 @@ Bad sorting algorithms (don't use these!):
 - [MinimumCoinChange](MinimumCoinChange/). A showcase for dynamic programming.
 - [Genetic](Genetic/). A simple example on how to slowly mutate a value to its ideal form, in the context of biological evolution.
 - [Myers Difference Algorithm](Myers%20Difference%20Algorithm/). Finding the longest common subsequence of two sequences.
-### Mathematics
+
+### 수학
 
 - [Greatest Common Divisor (GCD)](GCD/). Special bonus: the least common multiple.
 - [Permutations and Combinations](Combinatorics/). Get your combinatorics on!
@@ -111,7 +112,7 @@ Bad sorting algorithms (don't use these!):
 - [Haversine Distance](HaversineDistance/). Calculating the distance between 2 points from a sphere.
 - [Strassen's Multiplication Matrix](Strassen%20Matrix%20Multiplication/). Efficient way to handle matrix multiplication.
 
-### Machine learning
+### 머신 러닝
 
 - [k-Means Clustering](K-Means/). Unsupervised classifier that partitions data into *k* clusters.
 - k-Nearest Neighbors
@@ -122,17 +123,15 @@ Bad sorting algorithms (don't use these!):
 - [Naive Bayes Classifier](Naive%20Bayes%20Classifier/)
 - [Simulated annealing](Simulated%20annealing/). Probabilistic technique for approximating the global maxima in a (often discrete) large search space.
 
-## Data structures
+## 자료 구조
+특정 업무에 맞는 상황에 따른 자료구조 선택하기
 
-The choice of data structure for a particular task depends on a few things.
+먼저, 당신의 데이터의 형태와 코드 동작의 종류가 있을 것입니다. 만약 당신이 키(key)를 통해 객체를 찾고 싶다면 딕셔너리(dictionary)가 알맞을 것입니다. 계층적인 데이터를 가지고 있다면 정렬된 트리 구조를 찾아야 할 것입니다. 혹은 당신의 데이터가 순차적이라면 스택(stack) 또는 큐(queue)가 알맞습니다.
 
-First, there is the shape of your data and the kinds of operations that you'll need to perform on it. If you want to look up objects by a key you need some kind of dictionary; if your data is hierarchical in nature you want a tree structure of some sort; if your data is sequential you want a stack or queue.
+두번째,  명확한 자료구조를 선택하여 동작하도록 하는 것이 중요합니다.
+예를 들어, 컬렉션에서 가장 중요한 객체를 찾아야한다면, 힙(heap) 또는 우선순위 큐(priority queue)가 일반적인 배열보다 적절할 것입니다.
 
-Second, it matters what particular operations you'll be performing most, as certain data structures are optimized for certain actions. For example, if you often need to find the most important object in a collection, then a heap or priority queue is more optimal than a plain array.
-
-Most of the time using just the built-in `Array`, `Dictionary`, and `Set` types is sufficient, but sometimes you may want something more fancy...
-
-### Variations on arrays
+### 배열 변형
 
 - [Array2D](Array2D/). A two-dimensional array with fixed dimensions. Useful for board games.
 - [Bit Set](Bit%20Set/). A fixed-size sequence of *n* bits.
@@ -140,7 +139,7 @@ Most of the time using just the built-in `Array`, `Dictionary`, and `Set` types 
 - [Ordered Array](Ordered%20Array/). An array that is always sorted.
 - [Rootish Array Stack](Rootish%20Array%20Stack/). A space and time efficient variation on Swift arrays.
 
-### Queues
+### 큐
 
 - [Stack](Stack/). Last-in, first-out!
 - [Queue](Queue/). First-in, first-out!
@@ -148,12 +147,12 @@ Most of the time using just the built-in `Array`, `Dictionary`, and `Set` types 
 - [Priority Queue](Priority%20Queue). A queue where the most important element is always at the front.
 - [Ring Buffer](Ring%20Buffer/). Also known as a circular buffer. An array of a certain size that conceptually wraps around back to the beginning.
 
-### Lists
+### 리스트
 
 - [Linked List](Linked%20List/). A sequence of data items connected through links. Covers both singly and doubly linked lists.
 - [Skip-List](Skip-List/). Skip List is a probabilistic data-structure with same logarithmic time bound and efficiency as AVL/ or Red-Black tree and provides a clever compromise to efficiently support search and update operations.
 
-### Trees
+### 트리
 
 - [Tree](Tree/). A general-purpose tree structure.
 - [Binary Tree](Binary%20Tree/). A tree where each node has at most two children.
@@ -172,19 +171,19 @@ Most of the time using just the built-in `Array`, `Dictionary`, and `Set` types 
 - [QuadTree](QuadTree/). A tree with 4 children.
 - [Octree](Octree/). A tree with 8 children.
 
-### Hashing
+### 해싱
 
 - [Hash Table](Hash%20Table/). Allows you to store and retrieve objects by a key. This is how the dictionary type is usually implemented.
 - Hash Functions
 
-### Sets
+### 셋
 
 - [Bloom Filter](Bloom%20Filter/). A constant-memory data structure that probabilistically tests whether an element is in a set.
 - [Hash Set](Hash%20Set/). A set implemented using a hash table.
 - [Multiset](Multiset/). A set where the number of times an element is added matters. (Also known as a bag.)
 - [Ordered Set](Ordered%20Set/). A set where the order of items matters.
 
-### Graphs
+### 그래프
 
 - [Graph](Graph/)
 - [Breadth-First Search (BFS)](Breadth-First%20Search/)
@@ -210,21 +209,8 @@ A lot of software developer interview questions consist of algorithmic puzzles. 
 - [Encoding and Decoding Binary Tree](Encode%20and%20Decode%20Tree/)
 - [Closest Pair](Closest%20Pair/)
 
-## Learn more!
 
-Like what you see? Check out [Data Structures & Algorithms in Swift](https://store.raywenderlich.com/products/data-structures-and-algorithms-in-swift), the official book by the Swift Algorithm Club team!
-
-![Data Structures & Algorithms in Swift Book](Images/DataStructuresAndAlgorithmsInSwiftBook.png)
-
-You’ll start with the fundamental structures of linked lists, queues and stacks, and see how to implement them in a highly Swift-like way. Move on to working with various types of trees, including general purpose trees, binary trees, AVL trees, binary search trees, and tries. 
-
-Go beyond bubble and insertion sort with better-performing algorithms, including mergesort, radix sort, heap sort, and quicksort. Learn how to construct directed, non-directed and weighted graphs to represent many real-world models, and traverse graphs and trees efficiently with breadth-first, depth-first, Dijkstra’s and Prim’s algorithms to solve problems such as finding the shortest path or lowest cost in a network.
-
-By the end of this book, you’ll have hands-on experience solving common issues with data structures and algorithms — and you’ll be well on your way to developing your own efficient and useful implementations!
-
-You can find the book on the [raywenderlich.com store](https://store.raywenderlich.com/products/data-structures-and-algorithms-in-swift).
-
-## Credits
+## 저작권
 
 The Swift Algorithm Club was originally created by [Matthijs Hollemans](https://github.com/hollance).
 
@@ -232,10 +218,13 @@ It is now maintained by [Vincent Ngo](https://www.raywenderlich.com/u/jomoka), [
 
 The Swift Algorithm Club is a collaborative effort from the [most algorithmic members](https://github.com/raywenderlich/swift-algorithm-club/graphs/contributors) of the [raywenderlich.com](https://www.raywenderlich.com) community. We're always looking for help - why not [join the club](.github/CONTRIBUTING.md)? :]
 
-## License
+## 라이센스
 
 All content is licensed under the terms of the MIT open source license.
 
 By posting here, or by submitting any pull request through this forum, you agree that all content you submit or create, both code and text, is subject to this license.  Razeware, LLC, and others will have all the rights described in the license regarding this content.  The precise terms of this license may be found [here](https://github.com/raywenderlich/swift-algorithm-club/blob/master/LICENSE.txt).
 
 [![Build Status](https://travis-ci.org/raywenderlich/swift-algorithm-club.svg?branch=master)](https://travis-ci.org/raywenderlich/swift-algorithm-club)
+
+## 번역
+<a href="mailto:pierrotcw@naver.com">cwJohnPark</a>
