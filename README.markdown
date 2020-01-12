@@ -1,4 +1,4 @@
-![Swift Algorithm Club](Images/SwiftAlgorithm-410-transp.png)
+<p style="text-align:center">![Swift Algorithm Club](Images/SwiftAlgorithm-410-transp.png)</p>
 
 # Welcome to the Swift Algorithm Club!
 
