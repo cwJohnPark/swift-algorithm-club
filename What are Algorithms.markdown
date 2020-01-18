@@ -1,18 +1,12 @@
-# What are algorithms and data structures?
-
-An algorithm is a recipe for making the computer do something. If you know how to cook, you understand algorithms!
-
-Here's a [recipe for pancakes](http://allrecipes.com/recipe/21014/good-old-fashioned-pancakes/):
-
-1. In a large bowl, sift together flour, baking powder, salt and sugar.
-2. Pour in the milk, egg, and melted butter.
-3. Mix until smooth.
-4. Heat a frying pan over medium heat.
-5. Scoop the batter into the pan, using approximately 1/4 cup for each pancake.
-6. Brown the pancake on both sides.
-
-The recipe consists of a series of steps that you perform one after the other. An algorithm is just like that, except that it contains instructions for a computer to perform, not for a cook.
-
-The ingredients -- flour, milk, eggs, butter -- are the data that the algorithm works on. The data goes into the algorithm in one form (raw, separate ingredients) and comes out in another (delicious pancakes!).
-
-So what are the data structures? They are the containers that hold the data while the algorithm works on it. In the pancake recipe, the data structures are the bag that holds the flour, the mixing bowl where you combine everything, the frying pan that browns the pancake, and finally the plate used to serve the finished pancake.
+# 알고리즘과 자료구조란 무엇인가요?
+알고리즘은 컴퓨터에게 무엇을 하도록 하는 요리법과도 같습니다. 만약 어떻게 요리하는지 안다면 알고리즘을 이해한다는 뜻입니다.
+여기 팬케이크를 위한 레시피가 있습니다.
+1 큰 사발에 밀가루와 베이킹파우더, 소금과 설탕을 함께 섞습니다.
+2 우유, 계란, 녹인 버터를 넣습니다.
+3 부드러워질 때까지 섞습니다.
+4 프라이팬을 데워질 때까지 가열합니다.
+5 반죽한 것을 팬에 올립니다. 
+6 팬케이크의 위 아래가 갈색이 될 때까지 익힙니다.
+이 요리법은 차례로 여러분이 해야할 과정들을 말해줍니다. 알고리즘은 단지 요리가 아닌 컴퓨터가 업무를 수행한다는 것은 제외하고 이와 같습니다.
+밀가루, 우유, 계란, 버터와 같은 재료들은 알고리즘에 사용할 데이터입니다. 데이터는 하나의 형태로 알고리즘에 사용됩니다. 그리고 다른 형태로 산출됩니다. 
+그렇다면 자료구조는 무엇일까요? 자료구조는 데이터를 담는 일종의 컨테이너와 같습니다.  팬케이크 요리법을 비유로 한다면, 자료구조는 밀가루를 보관하는 봉지나 모든 재료를 섞는 사발, 팬케이크를 익혀줄 프라이팬 그리고 팬케이크를 먹을 수 있도록 받쳐주는 접시를 의미합니다.
